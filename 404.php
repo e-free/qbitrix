@@ -7,7 +7,7 @@ define("HIDE_SIDEBAR", true);
 
 require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
 
-$APPLICATION->SetTitle("Страница не найдена");?>
+$APPLICATION->SetTitle("Страница не найдена.");?>
 
 	<div class="bx-404-container">
 		<div class="bx-404-block"><img src="<?=SITE_DIR?>images/404.png" alt=""></div>
